@@ -39,7 +39,7 @@ end
 def play(board)
   turn_count = 0
   until turn_count == 10
-    turn(board)
     turn_count += 1
+    turn(board)
   end
 end
