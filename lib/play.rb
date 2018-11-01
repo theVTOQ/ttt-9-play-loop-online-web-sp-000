@@ -40,5 +40,6 @@ def play(board)
   turn_count = 0
   until turn_count == 2
     turn(board)
+    turn += 1
   end
 end
